@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+venv/
+env/
+.venv/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+*.pyc
+__pycache__/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Logs
+*.log
+logs/
+
+# Test and coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Pipeline config
+.pipeline/

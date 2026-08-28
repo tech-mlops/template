@@ -1,0 +1,41 @@
+{
+  "apis": [
+    {
+      "name": "example-api",
+      "version": "v1",
+      "basePath": "/api/v1",
+      "endpoints": [
+        {
+          "method": "GET",
+          "path": "/health",
+          "description": "Health check endpoint"
+        },
+        {
+          "method": "GET",
+          "path": "/users",
+          "description": "Get all users"
+        },
+        {
+          "method": "POST",
+          "path": "/users",
+          "description": "Create a new user"
+        },
+        {
+          "method": "GET",
+          "path": "/users/{id}",
+          "description": "Get user by ID"
+        },
+        {
+          "method": "PUT",
+          "path": "/users/{id}",
+          "description": "Update user by ID"
+        },
+        {
+          "method": "DELETE",
+          "path": "/users/{id}",
+          "description": "Delete user by ID"
+        }
+      ]
+    }
+  ]
+}

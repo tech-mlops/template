@@ -1,0 +1,22 @@
+{
+"paths": [
+{
+"path": "/ping",
+"method": "GET",
+"Description": "Home endpoint that returns a welcome message",
+"Type": "Internal"
+},
+{
+"path": "/greet",
+"method": "GET",
+"Description": "Returns a greeting with the provided name or 'Guest' if no name is provided",
+"Type": "External"
+},
+{
+"path": "/sum",
+"method": "POST",
+"Description": "Calculates the sum of two numbers ('a' and 'b') provided in the request body",
+"Type": "Internal"
+}
+]
+}

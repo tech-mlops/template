@@ -1,0 +1,10 @@
+base-path: /fargate-template-v1 # Unique identifier for all endpoints within the service. Must be unique across all Nginx config files.
+caller-application: # To generate apikeys against the below listed callerApp/consumers (Required)
+- fargate-template-fs
+paths: # API Paths / Routes
+/ping: # Method
+get:
+/greet:
+get:
+/sum:
+post:

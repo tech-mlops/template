@@ -1,0 +1,10 @@
+service_settings:
+stack_name: "fargate-template-v1" # Infrastructure stack name used in AWS CloudFormation
+ecr_repo: "fargate-template" # Amazon ECR repository for container images
+container_port: "5050" # Port on which the application listens for requests
+health_check_path: "/ping" # Endpoint used to verify service health when it runs on the container
+desired_count: 2 # Number of tasks to run for the service
+rate_limit: # Limits the number of API requests a user can make within a specific time period. Default 100 req/second.
+owners:
+pipeline_owner_email: "" # Email of CI/CD pipeline manager
+service_owner: "" # Email of service maintainer
